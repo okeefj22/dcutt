@@ -1,0 +1,44 @@
+/* my styles */
+.header {
+  padding: 0; }
+
+.date {
+  padding: 1em 0;
+  font-size: 1.5em; }
+
+.item {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  padding: 1.5em 0 2.5em 0;
+  margin: 1em 0;
+  /*border-radius: 10px;*/
+  border: .2em solid; }
+  .item span {
+    padding: .5em 1em 0 1em; }
+  .item :focus {
+    outline: 1em solid #000;
+    background: #000; }
+
+.lecture {
+  background: #6e9fcf;
+  border-color: #356ca2; }
+
+.tutorial {
+  background: #e6af4b;
+  border-color: #b27c19; }
+
+.lab {
+  background: #e05038;
+  border-color: #9a2b18; }
+
+#current {
+  border: .5em solid #000; }
+
+.time {
+  float: left; }
+
+.location {
+  float: right; }
+
+/*# sourceMappingURL=mystyles.css.map */

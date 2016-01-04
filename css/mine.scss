@@ -30,14 +30,14 @@ $blue: #6e9fcf;
 	color: inherit;
 	text-decoration: none;
 	display: block;	
-	padding: 1.5em 0 2.5em 0;
+	padding: 0 0 2.5em 0;
 	margin: 1em 0;
 	border: .2em solid;
 	text-align: left;
 
-	span {
+	span, div {
 
-		padding: .5em 1em 0 1em;
+		padding: .5em 1em 0em 1em;
 	}
 }
 

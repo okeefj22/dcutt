@@ -1,0 +1,44 @@
+/* my styles */
+#hidden-current {
+  visibility: hidden; }
+
+.header {
+  padding: 0; }
+
+.date {
+  padding: 1em 0; }
+  .date h3 {
+    font-size: 1.5em;
+    font-weight: normal; }
+
+.item {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  padding: 1.5em 0 2.5em 0;
+  margin: 1em 0;
+  border: .2em solid;
+  text-align: left; }
+  .item span {
+    padding: .5em 1em 0 1em; }
+
+.lecture {
+  background: #6e9fcf;
+  border-color: #356ca2; }
+
+.tutorial {
+  background: #e6af4b;
+  border-color: #b27c19; }
+
+.lab {
+  background: #e05038;
+  border-color: #9a2b18; }
+
+#current {
+  border: .5em solid #000; }
+
+.time {
+  float: left; }
+
+.location {
+  float: right; }

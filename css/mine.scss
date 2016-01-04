@@ -4,15 +4,25 @@ $blue: #6e9fcf;
 
 /* my styles */
 
+#hidden-current {
+	
+	visibility: hidden;
+}
+
 .header {
 
 	padding: 0;
 }
 
 .date {
-
+	
 	padding: 1em 0;
-	font-size: 1.5em;
+
+	h3 {
+
+		font-size: 1.5em;
+		font-weight: normal;
+	}
 }
 
 .item {

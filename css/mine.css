@@ -15,12 +15,16 @@
   color: inherit;
   text-decoration: none;
   display: block;
-  padding: 0 0 2.5em 0;
+  padding: .2em 0 2.5em 0;
   margin: 1em 0;
   border: .2em solid;
   text-align: left; }
-  .item span, .item div {
-    padding: .5em 1em 0em 1em; }
+  .item span {
+    padding: .5em 1em 0 1em; }
+    .item span.type, .item span.time, .item span.location {
+      float: left; }
+    .item span.module {
+      display: block; }
 
 .lecture {
   background: #6e9fcf;
@@ -36,9 +40,3 @@
 
 #current {
   border: .5em solid #000; }
-
-.time {
-  float: left; }
-
-.location {
-  float: right; }

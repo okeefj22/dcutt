@@ -30,14 +30,24 @@ $blue: #6e9fcf;
 	color: inherit;
 	text-decoration: none;
 	display: block;	
-	padding: 0 0 2.5em 0;
+	padding: .2em 0 2.5em 0;
 	margin: 1em 0;
 	border: .2em solid;
 	text-align: left;
 
-	span, div {
+	span {
 
-		padding: .5em 1em 0em 1em;
+		padding: .5em 1em 0 1em;
+
+		&.type, &.time, &.location {
+
+			float: left;
+		}
+
+		&.module {
+
+			display: block;
+		}
 	}
 }
 
@@ -62,14 +72,4 @@ $blue: #6e9fcf;
 #current {
 
 	border: .5em solid #000;
-}
-
-.time {
-
-	float: left;
-}
-
-.location {
-
-	float: right;
 }

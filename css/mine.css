@@ -20,7 +20,7 @@
   border: .2em solid;
   text-align: left; }
   .item span {
-    padding: .5em 1em 0 1em; }
+    padding: .5em .2em 0 1em; }
     .item span.type, .item span.time, .item span.location {
       float: left; }
     .item span.module {
